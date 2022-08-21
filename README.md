@@ -42,3 +42,14 @@ Then you can obtain same result with above.
 <br>
 
 ## Data load from CSV file example
+
+### Our target(to be loaded) .CSV file
+
+24 rows, 7 columns data file
+
+![image](https://user-images.githubusercontent.com/71545160/185780305-d28bfed4-92b6-4694-8932-9750cf1b7734.png)
+
+### Data load result with **dataload.c** file
+
+![image](https://user-images.githubusercontent.com/71545160/185780287-c6bbc009-0814-43b9-be7d-0a28f2b5ba94.png)
+
