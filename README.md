@@ -4,6 +4,8 @@
 
 ### On the Single file
 
+> <U>structure_ex_singlefile</U>
+
 ### On the Multiple files
 
 There is some problem with this case. I guess it's a complile error. To resolve this problem, there are 2 solutions. 
@@ -11,6 +13,9 @@ There is some problem with this case. I guess it's a complile error. To resolve 
 ![image](https://user-images.githubusercontent.com/71545160/185779124-809a79e8-9db8-488e-a3b9-f27c104e76ef.png)
 
 * **First Solution** :  Compling manually like below. 
+
+ > <U>structure_ex_multifile_GCCsetting</U>
+
   ```C
     gcc -o main main.c struct_ex.c
   ```
@@ -21,7 +26,10 @@ Then you can obtain **.exe** file like below. And just run in terminal, then you
 ![image](https://user-images.githubusercontent.com/71545160/185779254-4076cbc8-9039-4e77-9a83-8bf1ca4195f0.png)
 ![image](https://user-images.githubusercontent.com/71545160/185779271-bdf98fbb-d54a-49c8-a099-59ef984d33bb.png)
 
-* **Second Solution** : Include source file on the **main.c**  or, include the target function on the **struct_ex.h**.
+* Second Solution : Include source file on the **main.c**  or, include the target function on the **struct_ex.h**.
+
+> <U>structure_ex_multifile_SourceInclude</U>
+
  ```C
     #include "struct_ex.c"
   ```
