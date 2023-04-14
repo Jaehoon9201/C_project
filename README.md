@@ -53,3 +53,32 @@ Then you can obtain same result with above.
 
 ![image](https://user-images.githubusercontent.com/71545160/185780287-c6bbc009-0814-43b9-be7d-0a28f2b5ba94.png)
 
+### TC3xx_EvalBrd_Basic_SequenceRun_wScript.zip
+
+```c
+  # This script is licensed under BSD License, see file LICENSE.txt.
+  #
+  # (c) iSYSTEM Labs d.o.o., 2023
+
+  import isystem.connect as ic
+
+
+  def test_modify():
+      connMgr = ic.ConnectionMgr()
+      connMgr.connectMRU('')
+
+      dataCtrl = ic.CDataController(connMgr)
+
+      print(f"Modify variable 'tester3' to value '5'...")
+      dataCtrl.modify(ic.IConnectDebug.fRealTime, "tester3", "5", False)
+      print(f"Modify variable 'tester3' to value '6', with read-back...")
+      value = dataCtrl.modify(ic.IConnectDebug.fRealTime, "tester3", "6", True)
+      print(f"\tRead-back value: {value}")
+
+
+      for i in range(10000):
+          print("")
+
+  if __name__ == "__main__":
+      test_modify()
+```
