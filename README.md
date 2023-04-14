@@ -53,7 +53,15 @@ Then you can obtain same result with above.
 
 ![image](https://user-images.githubusercontent.com/71545160/185780287-c6bbc009-0814-43b9-be7d-0a28f2b5ba94.png)
 
-### TC3xx_EvalBrd_Basic_SequenceRun_wScript.zip
+<br>
+
+-----------------------
+
+<br>
+
+## TC3xx_EvalBrd_Basic_SequenceRun_wScript.zip
+
+- changing 'tester3' from default to 5 and to 6 sequencially.
 
 ```c
   # This script is licensed under BSD License, see file LICENSE.txt.
