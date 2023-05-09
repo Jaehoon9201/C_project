@@ -105,3 +105,8 @@ Then you can obtain same result with above.
   if __name__ == "__main__":
       test_modify()
 ```
+
+
+- **CAUTION:** Be sure to properly indent the lines with the text editor. I tried to match it with notepad, but it is not recognized by oneEye. (actually, if you open it in Notepad, the line is misaligned)
+
+![image](https://github.com/Jaehoon9201/C_project/assets/71545160/554fd3e2-2ec0-4276-ae44-ade2c6697958)
