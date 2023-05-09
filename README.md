@@ -61,6 +61,21 @@ Then you can obtain same result with above.
 
 ## TC3xx_EvalBrd_Basic_SequenceRun_wScript.zip
 
+### Setting
+
+1. Intall python ( above 3.7 ver )
+
+2. Intall Isystem python library
+ 
+![image](https://user-images.githubusercontent.com/71545160/237033166-a5e639c3-eb8b-4af4-832b-046dc177602b.png)
+
+3. python script path - user setting
+
+![image](https://user-images.githubusercontent.com/71545160/237032837-cda5155a-a5b2-473f-8938-ddffebc32558.png)
+
+
+### Example
+
 - changing 'tester3' from default to 5 and to 6 sequencially.
 
 ```c
